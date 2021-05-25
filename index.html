@@ -29,6 +29,9 @@
                     <h1>NuCamp</h1>
                     <h2>a better way to camp</h2>
                 </div>
+                <div class="col col-xs col-md-4 col-xl-2 mt-4">
+                    <a class="text-nowrap" href="#reserveForm"><button type="button" class="btn btn-info btn-lg">Reserve Campsite</button></a>
+                </div>
             </div>
         </div>
     </header>
@@ -36,7 +39,6 @@
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="30" /></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nucampNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -102,8 +104,7 @@
                 <div class="card">
                     <h3 class="card-header bg-info text-white">Reserve a Campsite</h3>
                     <div class="card-body">
-                        <form>
-                        
+                        <form id="reserveForm">
                             <div class="row form-group">
                                 <label class="col-sm-6 col-xs col-form-label">Number of Campers</label>
                                 <div class="col-xs col-sm">
