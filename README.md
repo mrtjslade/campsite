@@ -1,2 +1,1 @@
-# nuCampsite
-Project completed during NuCamp bootcamp
+Simple website for camping
